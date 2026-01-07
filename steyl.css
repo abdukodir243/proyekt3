@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #5FB848;
+}
+.btn{
+    padding: 10px 23px;
+    background: #494949;
+    color: white;
+    border-radius: 23px;
+}
+.ota{
+    width: 500px;
+    margin-top: 200px;
+}
+.ota h1{
+    font-size: 50px;
+}
+.ota span{
+    color: #5FB848;
+}
+.ota p{
+    width: 360px;
+    padding: 30px 0;
+    color: rgb(43, 43, 43);
+    line-height: 25px;
+    font-size: 20px;
+}
+.lop{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.btn2{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    color: white;
+    border: none;
+}
+.ota2{
+    text-align: center;
+}
+.ota2 h2{
+    font-size: 50px;
+}
+.ota2 p{
+    font-size: 23px;
+    color: #3B433E;
+    padding: 15px 0;
+}
+.card{
+    width: 250px;
+    text-align: center;
+}
+.card h3{
+    font-size: 25px;
+    padding: 14px 0;
+}
+.card p{
+    line-height: 20px;
+    font-size: 18px;
+    color: #3B433E;
+}
+.ota-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.ota3{
+    width: 350px;
+}
+.ota3 h2{
+    font-size: 46px;
+}
+.ota3 p{
+    font-size: 18px;
+    color: #3B433E;
+    padding: 30px 0 40px 0;
+    line-height: 28px;
+}
+.bobo-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.kiu{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.poi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.kui{
+    margin-bottom: -100px;
+}
+.ju{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.fen{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.btn3{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    color: white;
+    border: none;
+}
+.red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+input{
+    height: 60px;
+    width: 350px;
+    border-radius: 50px;
+}
+input::placeholder{
+    padding: 0 15px;
+    color: black;
+}
+.btn4{
+    padding: 18px 40px 21px 40px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    color: white;
+    border: none;
+    margin-left: -155px;
+}
+.fg{
+    width: 120px;
+}
+.fg h2{
+    font-weight: 800;
+    color: black;
+    padding: 0 0 10px;
+    font-size: 18px;
+}
+.fg p{
+    color: #3B433E;
+    line-height: 40px;
+}
+.uuu .container{
+    padding: 60px;
+}
+.ota5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.manu-btn{
+    background-color: inherit;
+    color: black;
+    border: none;
+    font-size: 20px;
+    display: none;
+}
+.fgg{
+    width: 250px;
+}
+.fgg p{
+    padding: 20px 0;
+    color: #3B433E;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:769px){
+    nav{
+        display: none;
+    }
+    .manu-btn{
+        display: block;
+    }
+    .btn{
+        display: none;
+    }
+    header{
+        padding: 15px;
+    }
+    .lop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .lop img{
+        width: 90%;
+    }
+    .ota h1{
+        font-size: 30px;
+        width: 80%;
+    }
+    .ota-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .ota2 h2{
+        font-size: 30px;
+        width: 70%;
+    }
+    .poi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .bobo-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .ju{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .fen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .ju img{
+        width: 90%;
+    }
+    .ota5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+       flex-wrap: wrap;
+    }
+    form{
+        display: none;
+    }
+    .ota{
+        width: 80%;
+    }
+    .ota p{
+        width: 70%;
+    }
+    .ota3{
+        width: 70%;
+    }
+
+}
